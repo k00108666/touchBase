@@ -1,30 +1,104 @@
 /* app css stylesheet */
 
-.menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
+#landingPageBdy{
+
+  background-image: url("assets/landingPagePics/light-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+
 }
 
-.menu:before {
-  content: "[";
+
+
+#landingNav {
+
+  opacity: 0.9;
+
 }
 
-.menu:after {
-  content: "]";
+#logo {
+  width: 150px;
+  height: 100px;
+  background-image: url("assets/landingPagePics/logocolour.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
 }
 
-.menu > li {
-  display: inline;
+.navText {
+
+  text-align: justify;
+  font-size: 20px;
+  padding-top: 20px;
+
 }
 
-.menu > li:before {
-  content: "|";
-  padding-right: 0.3em;
+#navSocialImg {
+
+  width: 150px;
+  height: 100px;
+  background-image: url("assets/landingPagePics/platform-logos.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+
 }
 
-.menu > li:nth-child(1):before {
-  content: "";
-  padding: 0;
+#landingLbl {
+
+  position: relative;
+  left: 550px;
+  font-family: "Georgia", Times New Roman, Times, sans-serif;
+  font-size: x-large;
+  letter-spacing: 10px;
+
 }
+
+
+.landingTxt{
+
+  width: 300px;
+  word-wrap: break-word;
+  color: #ffffff;
+  font-size: x-large;
+  padding: 20px;
+
+
+}
+
+.signUpFormText{
+
+  color: #ffffff;
+  background-color: #808080;
+
+}
+
+.signUpFormInput {
+
+
+
+}
+
+#signUpForm {
+
+    width: 300px;
+  background-color: #808080;
+
+}
+
+
+#signUpFormBtn {
+
+  width: 100px;
+  background: transparent;
+  border: #ffffff;
+  border-style: solid;
+
+
+
+}
+

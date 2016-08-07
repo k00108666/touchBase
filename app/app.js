@@ -16,14 +16,14 @@ config(['$stateProvider', '$urlRouterProvider', function($stateProvider) {
           .state('home' , {
 
             url: '/home',
-            templateUrl: 'view1/view1.html'
+            templateUrl: 'landingPage/landingPage.html'
 
           })
 
           .state('landingPage', {
 
             url: 'landing-page',
-            templateUrl: 'view2/view2.html'
+            templateUrl: 'homePage/homePage.html'
 
 
       })
