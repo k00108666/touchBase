@@ -9,22 +9,31 @@ angular.module('myApp', [
   'myApp.version'
 
 ]).
-config(['$stateProvider', '$urlRouterProvider', function($stateProvider) {
+config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($stateProvider, $urlRouteProvider, $locationProvider) {
 
+
+        $locationProvider.html5Mode({
+
+            enabled: true
+
+        });
 
       $stateProvider
           .state('home' , {
 
             url: '/home',
-            templateUrl: 'landingPage/landingPage.html'
+            templateUrl: 'app/landingPage/landingPage.html'
 
           })
 
           .state('landingPage', {
 
-            url: 'landing-page',
-            templateUrl: 'homePage/homePage.html'
+            url: '/landing-page',
+            templateUrl: 'app/homePage/homePage.html'
 
 
       })
+
+
+
 }]);
