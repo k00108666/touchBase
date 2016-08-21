@@ -1,12 +1,52 @@
 /* app css stylesheet */
 
-#landingPageBdy{
+body{
 
-  background-image: url("assets/landingPagePics/light-image.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
+background-color: #10bfc1;
 
+}
+
+.pageNav{
+
+  padding: 40px;
+
+}
+
+#introNavItem1 {
+  background-color: #b3319a;
+  width:33%
+}
+
+#introNavItem2 {
+
+  width:33%;
+  background-color: #031f1f;
+}
+
+#introNavItem3 {
+  width: 33%;
+  background-color: #028e9b;
+
+}
+
+
+#introNavItem4 {
+ text-align: center;
+width: 100%;
+  background-color:  #031f1f;
+}
+
+
+#halfNavItem1 {
+
+  width: 49%;
+
+}
+
+
+#halfNavItem2 {
+
+  width: 49%;
 
 }
 
@@ -14,14 +54,27 @@
 
 #landingNav {
 
-  opacity: 0.9;
+  background-color: #028e9b;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+
+
+}
+
+
+.rowPadding{
+
+  padding: 40px;
+  word-wrap: break-word;
+  color: #ffffff;
+
 
 }
 
 #logo {
   width: 150px;
   height: 100px;
-  background-image: url("assets/landingPagePics/logocolour.gif");
+  background-image: url("touchbase/app/assets/landingPagePics/logocolour.gif");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -36,69 +89,22 @@
 
 }
 
-#navSocialImg {
-
-  width: 150px;
-  height: 100px;
-  background-image: url("assets/landingPagePics/platform-logos.gif");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
 
 
-}
+.homeTxt{
 
-#landingLbl {
-
-  position: relative;
-  left: 550px;
-  font-family: "Georgia", Times New Roman, Times, sans-serif;
-  font-size: x-large;
-  letter-spacing: 10px;
-
-}
-
-
-.landingTxt{
-
-  width: 300px;
   word-wrap: break-word;
   color: #ffffff;
-  font-size: x-large;
   padding: 20px;
 
 
 }
 
-.signUpFormText{
+.navBarWidth{
 
-  color: #ffffff;
-  background-color: #808080;
-
-}
-
-.signUpFormInput {
-
-
-
-}
-
-#signUpForm {
-
-    width: 300px;
-  background-color: #808080;
-
-}
-
-
-#signUpFormBtn {
-
-  width: 100px;
-  background: transparent;
-  border: #ffffff;
-  border-style: solid;
-
-
+  width: 33.333333%;
+  background-color: green;
+  border-style: double;
 
 }
 

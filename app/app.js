@@ -18,21 +18,34 @@ config(['$stateProvider', '$urlRouterProvider', '$locationProvider', function($s
 
         });
 
-      $stateProvider
-          .state('home' , {
+        $urlRouteProvider.otherwise('/');
 
-            url: '/home',
-            templateUrl: 'app/landingPage/landingPage.html'
+      $stateProvider
+
+          .state('links' , {
+
+              url: '/linksPage',
+              templateUrl: 'touchbase/app/linksPage/externalPage.html'
 
           })
 
-          .state('landingPage', {
+          .state('homePage', {
 
-            url: '/landing-page',
-            templateUrl: 'app/homePage/homePage.html'
+            url: '/',
+            templateUrl: 'touchbase/app/homePage/homePage.html'
 
 
       })
+
+          .state('whoPage',{
+
+              url: '/whoPage',
+              templateUrl: 'touchbase/app/whoPage/whoPage.html'
+
+
+
+          })
+
 
 
 

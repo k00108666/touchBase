@@ -1,0 +1,128 @@
+<div xmlns="http://www.w3.org/1999/html">
+<div class="row pageNav col-lg-11">
+    <div><img src="touchbase/app/assets/introbanner.png"><br></div>
+
+    <div>
+    <label id="introNavItem1" class="btn btn-default" ng-click="currentPage = 'prodVideo'">Product Video</label>
+    <label id="introNavItem2" class=" btn btn-default" ng-click="currentPage = 'intro'">Intro</label>
+    <label  id="introNavItem3"  class="btn btn-default" ng-click="currentPage = 'prodDef'">Product Definition</label>
+    </div>
+
+
+    <label id="introNavItem4" class="btn btn-default" ng-click="currentPage = 'meetTeam'">Meet The Team</label>
+
+</div><br>
+
+
+
+<div ng-hide="currentPage !== 'prodVideo'" class="text-center">
+
+    <iframe width="640" height="360" src="https://www.youtube.com/embed/L0MK7qz13bU" frameborder="0" allowfullscreen></iframe>
+
+    <p>
+        Video property of TouchBase
+
+    </p>
+
+
+</div>
+
+<div ng-hide="currentPage !=='intro'" class="row  homeTxt text-center col-lg-10">
+
+    <p>TouchBase</p>
+    <p>An Introduction</p>
+    <p>TouchBase is the future <br>
+        A fully integrated system which allows remote access to your home from wherever you
+        are in the world. TouchBase provides the opportunity to control your domain in a way
+        never seen before. From third party access to security measures it will change the way
+        you think about your home and what it can do for you. With a focus on reliability and partnerships
+        with many leading insurance companies you can be sure that TouchBase is the next step
+        in bringing the home of the future into today.
+
+
+    </p>
+
+    <p>It's features include:</p>
+
+    <p>Third party Access - The ability to allow tradespeople or visitors to access your house while you are at
+        work or on the road.</p>
+
+    <p>Heating Control - Adjust the air conditioning and room temperatures of your home before you
+        even step foot in the door.</p>
+
+    <p>Appliance Control - From kettles to cookers, rice cookers to rotisserie, TouchBase will allow you
+        to prepare your meal from wherever you are.</p>
+
+    <p>Security Control - Integrated into the system is fully controllable security features, allowing
+        you to check your property remotely and signal for help when needed.</p>
+
+
+
+
+</div>
+
+<div ng-hide="currentPage !== 'prodDef'" class="row text-center col-lg-10">
+
+</div>
+
+    <div ng-hide="currentPage !== 'meetTeam'"  class="row col-lg-10 img-responsive ">
+
+        <div class="pageNav row">
+            <img  align="left" src="touchbase/app/assets/eoin.jpg">
+            <p class="rowPadding">Eoin Little.<br>
+                Background in concept development, project management, innovation, startups and
+                team building.<br> Lucky to have travelled widely with work and for leisure.<br> Possibly the best Brioche baker on the Planet!</p>
+            </div>
+
+        <div class="pageNav row">
+
+            <img align="left" src="touchbase/app/assets/Leigha.jpg">
+           <p class="rowPadding">Leigha Dugdale.<br>
+               Background in Fine Art. I am a traditional kind of girl.<br> I love to bake and make things. </p>
+
+        </div>
+
+        <div class="pageNav row">
+
+            <img align="left" src="touchbase/app/assets/shane.jpg">
+            <p class="rowPadding">Shane Walsh.<br>
+                Background is accountancy.<br>
+                Interests are my son and football especially Tottenham. </p>
+
+        </div>
+
+        <div class="pageNav row">
+
+            <img align="left" src="touchbase/app/assets/jim.bmp">
+            <p class="rowPadding">Jim Nelson.<br>
+                I have a background in Strategic Management.<br>
+                I wish to pursue a Phd with specific emphasis on
+                interrelationships between
+                literacy, invention, delivery, and ownership.
+            </p>
+        </div>
+
+        <div class="pageNav row">
+
+            <img align="left" src="touchbase/app/assets/seamy.jpg">
+           <p class="rowPadding">Background in business/teaching but more of a software developer.<br>
+           Software development is a family thing with 3 of my siblings counting it as a career to date.<br>
+           Love travelling and lucky enough to have been to many different countries.<br>
+           All in all an easy going guy who enjoys living life! :)</p>
+
+        </div>
+
+        <div class="pageNav row">
+
+            <img align="left" src="touchbase/app/assets/eoin.jpg">
+            <label class="rowPadding">Hey man</label>
+
+        </div>
+
+
+    </div>
+
+
+    <footer>Links to research material etc</footer>
+
+</div>

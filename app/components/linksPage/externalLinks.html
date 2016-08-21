@@ -1,0 +1,32 @@
+<div>
+
+    <div  id="pageNav">
+
+        <img src="touchbase/app/assets/externallinksbanner.png"><br>
+
+        <label id="halfNavItem1" ng-click="currentPage = 'landingPage'">Landing Page</label>
+        <label id="halfNavItem2" ng-click="currentPage = 'socialMedia'">Social Media</label>
+
+    </div><br>
+
+
+<div ng-hide="currentPage !== 'landingPage'">
+
+    <img src="touchbase/app/assets/landing-Page.jpg">
+
+
+</div>
+
+
+<span ng-hide="currentPage !== 'socialMedia'">
+
+
+    Facebook Image here
+    Twitter Image here
+
+
+
+
+</span>
+
+</div>

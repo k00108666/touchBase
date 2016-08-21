@@ -1,0 +1,48 @@
+<div>
+
+    <div  id="pageNav">
+
+        <img src="touchbase/app/assets/personasscenariosbanner.png"><br>
+
+        <label id="halfNavItem1" ng-click="currentPage = 'personas'">Personas</label>
+        <label id="halfNavItem2" ng-click="currentPage = 'scenario'">Scenarios</label>
+
+    </div><br>
+
+
+    <div ng-hide="currentPage !== 'personas'">
+
+        <div style="height: 305px">
+            <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                    <div class="carousel-caption">
+                        <h4>Slide {{slide.id}}</h4>
+                        <p>{{slide.text}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div ng-hide="currentPage !== 'scenario'">
+
+
+
+        <div style="height: 305px">
+            <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+                <div uib-slide ng-repeat="slide in scenarioSlides track by slide.id" index="slide.id">
+                    <img ng-src="{{slide.image}}" style="margin:auto;">
+                    <div class="carousel-caption">
+                        <h4>Slide {{slide.id}}</h4>
+                        <p>{{slide.text}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+         </div>
+
+
+</div>
